@@ -1,0 +1,266 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-logo {
+  width: 150px;
+}
+
+.inner-container {
+  height: 95%;
+  width: 90%;
+}
+
+.add-password-card {
+  background-color: #5763a5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 18px 5px #94a3b8;
+}
+
+.form-container {
+  background-color: #454f84;
+  width: 90%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.password-manager-img-sm {
+  width: 90%;
+}
+
+.add-password-heading {
+  color: #f8fafc;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.input-container {
+  background-color: #f8fafc;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.input-image {
+  width: 23px;
+}
+
+.input-image-container {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1.5px solid #94a3b8;
+}
+
+.password-manager-img-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .password-manager-img-sm {
+    display: none;
+  }
+  .password-manager-img-lg {
+    display: flex;
+    width: 40%;
+  }
+  .add-password-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  .form-container {
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inner-container {
+    width: 80%;
+  }
+}
+
+.input {
+  width: 80%;
+  border: none;
+  outline: none;
+  color: #454f84;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-button {
+  height: 30px;
+  width: 70px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+::placeholder {
+  opacity: 0.8;
+}
+
+.your-passwords-card {
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.your-pass-heading {
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.passwords-count-container {
+  display: flex;
+  align-items: center;
+}
+
+.passwords-count {
+  border: 1px solid #f8fafc;
+  color: #f8fafc;
+  width: 26px;
+  margin-left: 8px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-img {
+  width: 20px;
+}
+
+.search-img-container {
+  height: 30px;
+  width: 40px;
+  border-right: 1px solid #94a3b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  height: 30px;
+  width: 210px;
+  border-radius: 3px;
+}
+
+.your-pass-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  .search-container {
+    width: 300px;
+  }
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: #f8fafc;
+}
+
+.check-box {
+  width: 20px;
+  height: 20px;
+}
+
+.check-box-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  width: 150px;
+}
+
+.show-passwords-heading {
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.empty-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.empty-image {
+  width: 300px;
+}
+
+.empty-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.list-container {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

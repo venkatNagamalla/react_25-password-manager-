@@ -1,0 +1,103 @@
+.list-pass-container {
+  border: 1px solid #b6c3ca;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  height: 105px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-pass-container {
+    width: 30%;
+  }
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.profile-1 {
+  background-color: #b6c3ca;
+  color: #ffffff;
+}
+
+.profile-2 {
+  background-color: #b6c3ca;
+  color: #ffffff;
+}
+.profile-3 {
+  background-color: #7683cb;
+  color: #ffffff;
+}
+.profile-4 {
+  background-color: #f59e0b;
+  color: #ffffff;
+}
+.profile-5 {
+  background-color: #10b981;
+  color: #ffffff;
+}
+.profile-6 {
+  background-color: #f97316;
+  color: #ffffff;
+}
+
+.profile-7 {
+  background-color: #14b8a6;
+  color: #ffffff;
+}
+
+.profile-8 {
+  background-color: #b91c1c;
+  color: #ffffff;
+}
+
+.website-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.passwords-img {
+  width: 150px;
+}
+
+.website {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.username {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.button-bg {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete {
+  width: 25px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
